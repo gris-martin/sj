@@ -1,0 +1,20 @@
+Få ut alla stationer för ett tåg:
+https://kundo.se/org/trafiklabse/d/mellanstationer-saknas-i-trafikverkets-api/
+
+Resrobot API (meddelande + svar)
+https://www.trafiklab.se/api/resrobot-reseplanerare/sok-resa
+Tips: Använd passlist för att få ut lista med stationer
+
+Required functions:
+Get all stops between a and b at specified time
+    - Station name
+    - Arrival time (if applicable)
+    - Departure time (if applicable)
+
+Create list of possible trips from stops list
+    - Each list item should be list
+        - Each item of that list should contain a departure station and time, and an arrival station and time
+
+Search SJ for a certain trip between two stops at a certain time, and extract the price
+
+Call the SJ search function for each possible trip list and add the prices
