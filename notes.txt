@@ -14,6 +14,7 @@ Get all stops between a and b at specified time
 Create list of possible trips from stops list
     - Each list item should be list
         - Each item of that list should contain a departure station and time, and an arrival station and time
+    - Algorithm: https://www.techiedelight.com/break-string-non-overlapping-substrings/
 
 Search SJ for a certain trip between two stops at a certain time, and extract the price
 
